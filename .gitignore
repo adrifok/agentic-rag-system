@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Config with secrets
+config.yaml
+
+# Generated data
+chunks.json
+embeddings/
+openwebui_data/
+.gradio/
+
+# Node
+scripts/node_modules/
+scripts/package-lock.json
+
+# Oracle DB volume (if docker creates local dirs)
+oradata/
